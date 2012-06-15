@@ -12,7 +12,7 @@ class Phrase :
         self.object = None
         self.predicate = None
         self.predicative = None
-        self.type = -1 # type of phrase
+        self.type = None # type of phrase
         self.center = None # reference to center word
         self.role = None # role as child of parent
         self.score = 0
